@@ -5,12 +5,6 @@ var finalForgotPassword = function() {
     document.getElementById('forgotPassEmail').value = '';
 };
 
-function pageViewedCall() {
-    window.ga('set', 'page', 'Login');
-    window.ga('set', 'location', window.location.href);
-    window.ga('send', 'pageview');
-};
-
 function sendGAEvent(category, action, label, value, non_int){
     label = category + '-' + label;
     label = label.toUpperCase();

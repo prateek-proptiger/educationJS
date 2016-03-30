@@ -35,37 +35,6 @@
   transform: scale(2);
 }
 
-/***** Start Md Tabs Wrapper *****/
-/* line 468, ../scss/_common.scss */
-md-tabs md-tabs-canvas md-pagination-wrapper {
-  width: 100%;
-  display: table;
-}
-/* line 471, ../scss/_common.scss */
-md-tabs md-tabs-canvas md-pagination-wrapper .md-tab {
-  min-width: 20%;
-  display: table-cell;
-  float: inherit !important;
-  background-color: #f7f7f7;
-  color: #444444;
-}
-/* line 477, ../scss/_common.scss */
-md-tabs md-tabs-canvas md-pagination-wrapper .md-tab.md-active {
-  background-color: #fdfdfd !important;
-  color: #E89A00 !important;
-}
-/* line 481, ../scss/_common.scss */
-md-tabs md-tabs-canvas md-pagination-wrapper .md-tab .md-ripple-container {
-  color: #E89A00;
-}
-/* line 485, ../scss/_common.scss */
-md-tabs md-tabs-canvas md-pagination-wrapper md-ink-bar {
-  background-color: #E89A00 !important;
-}
-/* line 491, ../scss/_common.scss */
-md-tabs md-tabs-content-wrapper md-content {
-  padding: 10px;
-}
 /* line 493, ../scss/_common.scss */
 md-tabs md-tabs-content-wrapper md-content .mdContHeadInfo {
   font-size: 1.6rem;
