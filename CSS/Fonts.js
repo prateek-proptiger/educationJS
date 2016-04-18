@@ -21,3 +21,20 @@ Thus total height/width of each element should be calculated considering margin,
 
 Outline
 =======
+Similar to border, An outline is a line drwan around the element (including border) to make it stand out.
+But outline is not a part of an element dimensions as the element total width and height is not affected by the
+width of the outline.
+Properties are: outline-width, outline-style, outline-color Similar to border.
+One extra property is outline-offset: It specifies the spacing with border.
+
+Display
+=======
+Specifies if/how an element is to be displayed.
+By default elements have a display type of inline or block.
+
+- block: Starts on a new line and takes full width available.
+- inline: Doesnt start on a new line and takes only necessary width.
+- none: Hides an element in the DOM without deleting and recreating them. <script> have display: none; by default.
+
+display:none VS visibility:hidden
+Both hides an element but visibility will still effect the layout as it will take the space.
